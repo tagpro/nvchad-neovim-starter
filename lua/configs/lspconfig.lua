@@ -3,8 +3,33 @@ require("nvchad.configs.lspconfig").defaults()
 
 local lspconfig = require "lspconfig"
 
+vim.diagnostic.config({
+	update_in_insert = true,
+})
+
 -- EXAMPLE
-local servers = { "html", "cssls" }
+local servers = {
+  "html",
+  "cssls",
+  "bufls",
+  "dockerls",
+  "docker_compose_language_service",
+  "cmake",
+  "eslint",
+  "java_language_server",
+  "kotlin_language_server",
+  "jsonls",
+  "marksman",
+  "nextls",
+  "postgres_lsp",
+  "sqlls",
+  "svelte",
+  "tailwindcss",
+  "templ",
+  "tsserver",
+  "gopls",
+}
+
 local nvlsp = require "nvchad.configs.lspconfig"
 
 -- lsps with default config
