@@ -10,7 +10,7 @@
 For example
 ```
 # Linux/MacOS
-git clone ~https://github.com/tagpro/nvchad-neovim-starter /.config/nvim
+git clone https://github.com/tagpro/nvchad-neovim-starter ~/.config/nvim
 ```
 2. After you have cloned, make sure you have all the languages installed in `lua/configs/lspconfig.lua` in the variable servers. Comment the lines using `--` if they are not installed.
 3. Run `nvim` in the terminal and wait for initial setup to finish. 
