@@ -28,6 +28,11 @@ local servers = {
   "templ",
   "tsserver",
   "gopls",
+  -- "ruby_lsp",
+  "solargraph",
+  "rubocop",
+  "pylsp",
+  "ruff",
 }
 
 local nvlsp = require "nvchad.configs.lspconfig"
