@@ -26,7 +26,7 @@ local servers = {
   "svelte",
   "tailwindcss",
   "templ",
-  "tsserver",
+  "ts_ls",
   "gopls",
   -- "ruby_lsp",
   "solargraph",
